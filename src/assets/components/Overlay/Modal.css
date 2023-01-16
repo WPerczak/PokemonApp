@@ -1,0 +1,54 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+    position: fixed;
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 70%;
+    color: white;
+    background-color: #1d1d1e;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 20;
+    animation: slide-down 300ms ease-out forwards;
+}
+
+.details {
+    padding: 2rem;
+}
+
+.line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.images {
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+
+.images img {
+    width: 100px;
+}
+
+.destription {
+    height: 200px;
+}
+
+.Pokemoninfo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+    grid-gap: 1rem;
+}

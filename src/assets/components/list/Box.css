@@ -1,0 +1,25 @@
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #272729;
+    box-sizing: border-box;
+    width: 190px;
+    height: 190px;
+    border-radius: 30px;
+    border: 2px solid #272729;
+    margin: auto;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .box:hover {
+    background-color: #2b2b2d;
+    border: 2px solid rgb(68, 68, 69);  }
+  
+  .box img {
+    width: 100px;
+  }

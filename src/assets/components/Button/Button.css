@@ -1,0 +1,52 @@
+.list-button {
+    position: relative;
+    margin-top: 4.75px;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    bottom: 5px;
+    padding-bottom: 1rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+
+    width: auto;
+    height: auto;
+    background-color: #1d1d1e;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    opacity: 0.97;
+    left: 0;
+    right: 2%;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+  
+  .button {
+    filter: drop-shadow(0 0 0.5em #000000aa);
+    max-width: 250px;
+    min-width: 100px;
+    font: inherit;
+    line-height: 1.5rem;
+    border: 1.5px solid rgb(68, 68, 69);
+    border-radius: 10px;
+    background-color: rgb(48, 48, 48);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .button-27:disabled {
+    pointer-events: none;
+  }
+  
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
