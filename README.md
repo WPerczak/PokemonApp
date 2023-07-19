@@ -1,15 +1,15 @@
 # PokemonApp
 
-##General info
+## General info
 This project is simple React based app for searching and browsing pokemons from PokeAPi.
 
-##Technologies
+## Technologies
 Project is created with:
 * React
 * Axios
 * PokeAPI from https://pokeapi.co
 
-##Setup
+## Setup
 To run this project, install it locally using npm:
 
 ```
