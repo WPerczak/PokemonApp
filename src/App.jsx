@@ -7,7 +7,7 @@ import Details from './assets/components/Overlay/Details';
 import Box from './assets/components/list/Box';
 
 function App(props) {
-  const Url = ("https://pokeapi.co/api/v2/pokemon?limit=200");
+  const Url = ("https://pokeapi.co/api/v2/pokemon?limit=1054");
   const [pokeData, setPokeData] = useState([]);
 
 
@@ -30,7 +30,7 @@ function App(props) {
         poke.types[0].type.name.toLowerCase().startsWith(filter.toLowerCase())
       )
   });
-  // console.log(pokeData);
+  console.log(pokeData);
 
 
 
